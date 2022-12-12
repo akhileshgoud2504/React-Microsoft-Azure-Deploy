@@ -1,4 +1,4 @@
- Commented out for the new yml
+ 
  name: Deploy to Azure
  env:
    SCREENER_API_KEY: ${{ secrets.SCREENER_API_KEY }}
