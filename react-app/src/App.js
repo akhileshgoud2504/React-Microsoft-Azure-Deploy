@@ -5,11 +5,12 @@ function App() {
     <div className="App">
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/akhileshgoud2504"
           target="_blank"
           rel="noopener noreferrer"
+          data-testid="gitlink"
         >
-          Hello React
+          Goto Akhilesh GitHub
         </a>
     </div>
   );

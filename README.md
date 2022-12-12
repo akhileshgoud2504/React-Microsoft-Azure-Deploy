@@ -87,3 +87,32 @@ jobs:
 * Add secret variables
 * Commit and watch it 🏃‍♀️
 
+### Add another test
+
+| Expected Behavior  | Tested? | Test Type  | Technologies  |
+|---|---|---|---|
+| A URL with the right text exists  | ✅ | Component | React testing library, Jest |
+| App renders correctly  | 🙅‍♂️ |   |   |
+| URL is correct | 🙅‍♂️ |   |  |
+| App looks as expected on web and mobile  | 🙅‍♂️ |   |   |
+| Front-end performance is at least a B  | 🙅‍♂️ |   |   |
+| App is secure  | 🙅‍♂️ |   |   |
+| App is accessibility friendly  | 🙅‍♂️ |   |   |
+
+* Add a test for checking that the url is correct
+* Update the url text
+* Update the code to use a test id
+* Commit and push to CI
+
+### Shift-right and add a visual test
+
+| Expected Behavior  | Tested? | Test Type  | Technologies  |
+|---|---|---|---|
+| A URL with the right text exists  | ✅ | Component | React testing library, Jest |
+| App renders correctly  | 🙅‍♂️ |   |   |
+| URL is correct | ✅ |  Component | React testing library, Jest |
+| App looks as expected on web and mobile  | 🙅‍♂️ |   |   |
+| Front-end performance is at least a B  | 🙅‍♂️ |   |   |
+| App is secure  | 🙅‍♂️ |   |   |
+| App is accessibility friendly  | 🙅‍♂️ |   |   |
+
