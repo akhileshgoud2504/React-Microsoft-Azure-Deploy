@@ -29,7 +29,7 @@
      - name: Install dependencies 📦
        run: |
          cd my-app
-         npm ci
+         npm install
      - name: Build the app 🏗
        run: |
          cd my-app
