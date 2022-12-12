@@ -1,5 +1,5 @@
  Commented out for the new yml
- name: CI
+ name: Deploy to Azure
  env:
    SCREENER_API_KEY: ${{ secrets.SCREENER_API_KEY }}
    SAUCE_USERNAME: ${{ secrets.SAUCE_USERNAME }}
