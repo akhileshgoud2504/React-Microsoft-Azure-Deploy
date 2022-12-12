@@ -1,4 +1,4 @@
- Commented out for the new yml
+ 
  name: Deploy to Azure
  env:
    SCREENER_API_KEY: ${{ secrets.SCREENER_API_KEY }}
@@ -27,24 +27,23 @@
        with:
          node-version: ${{ matrix.node-version }}
      - name: Install dependencies 📦
-       Using npm ci is generally faster than running npm install
        run: |
-         cd my-app
+         cd react-app
          npm ci
      - name: Build the app 🏗
        run: |
-         cd my-app
+         cd react-app
          npm run build
      - name: Run component tests 🔸
        run: |
-         cd my-app
+         cd react-app
          npm run test
      - name: Start the app 📤
        run: |
-         cd my-app
+         cd react-app
          npm start &
          npx wait-on --timeout 60000
      - name: Run visual tests 👁
        run: |
-         cd my-app
+         cd react-app
          npm run test:visual
